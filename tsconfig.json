@@ -10,7 +10,6 @@
 
     "target": "ES5",
     "baseUrl": "src",
-    "outDir": "out",
     "lib": ["dom", "ES5", "ESNext"],
     "strict": true,
     "module": "ESNext",
@@ -18,9 +17,10 @@
     "noStrictGenericChecks": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "declaration": true,
+    "disableReferencedProjectLoad": true,
 
     "jsx": "react-jsx",
-    "skipLibCheck": true,
     "checkJs": false,
     "types": ["node", "react", "kotto-web-common"],
     "typeRoots": ["@types"]
@@ -28,6 +28,6 @@
   "typeAcquisition": {
     "include": ["node", "react"]
   },
-  "include": ["src", "@types/**/*"],
+  "include": ["src", "@types/**/*", "src/Example.spec.tsx"],
   "exclude": ["node_modules"]
 }
