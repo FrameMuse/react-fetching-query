@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/framemuse/react-fetching-query#readme",
   "dependencies": {
-    "kotto-web-common": "^2.7.6",
+    "kotto-web-common": "^2.8.1",
     "react": "alpha",
     "react-fetching-library": "^1.7.6",
     "webpack": "^5.51.1"
