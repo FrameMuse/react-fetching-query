@@ -19,7 +19,8 @@ export function QueryTransform(props: QueryTransformProps) {
 function DefaultQueryTransformation(props: { children: any }) {
   const queryContext = useQueryContext()
 
-  if (queryContext.loading) {
+  // TO-DO: Fix initial false loading
+  if (queryContext.loading || queryContext.payload == null) {
     return null
   }
 
