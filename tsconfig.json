@@ -10,6 +10,7 @@
 
     "target": "ES5",
     "baseUrl": "src",
+    "outDir": "out",
     "lib": ["dom", "ES5", "ESNext"],
     "strict": true,
     "module": "ESNext",
@@ -18,6 +19,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "sourceMap": true,
+
+    "declaration": true,
 
     "jsx": "react-jsx",
     "skipLibCheck": true,
