@@ -1,6 +1,6 @@
 {
   "name": "react-fetching-query",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "description": "Provides context of the using query",
   "main": "out/index.js",
   "types": "index.ts",
