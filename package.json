@@ -1,0 +1,30 @@
+{
+  "name": "react-fetching-query",
+  "version": "0.3.5",
+  "description": "Provides context of the using query",
+  "main": "out/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/framemuse/react-fetching-query.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "react-fetching-library"
+  ],
+  "author": "framemuse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/framemuse/react-fetching-query/issues"
+  },
+  "homepage": "https://github.com/framemuse/react-fetching-query#readme",
+  "dependencies": {
+    "kotto-web-common": "^2.7.6",
+    "react": "alpha",
+    "react-fetching-library": "^1.7.6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "@types/react": "^17.0.19"
+  }
+}
