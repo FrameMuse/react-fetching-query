@@ -1,5 +1,5 @@
 import { createContext } from "react"
-import { useQueryContext } from "QueryContext"
+import { useQueryContext } from "./QueryContext"
 
 interface QueryTransformProps {
   children: any

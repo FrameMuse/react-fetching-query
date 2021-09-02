@@ -9,7 +9,6 @@
     "forceConsistentCasingInFileNames": true,
 
     "target": "ES5",
-    "baseUrl": "src",
     "outDir": "out",
     "lib": ["dom", "ES5", "ESNext"],
     "strict": true,

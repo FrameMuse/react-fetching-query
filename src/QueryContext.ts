@@ -1,7 +1,7 @@
 import { RequiredBy } from "kotto-web-common/@types"
 import { createContext, useContext } from "react"
 import { Action, QueryResponse, UseQueryResponse } from "react-fetching-library"
-import { NulishType, PayloadOf } from "types"
+import { NulishType, PayloadOf } from "./types"
 
 interface QueryExtenstion<T = {}> {
   modifyPayload: React.Dispatch<React.SetStateAction<T | undefined>>

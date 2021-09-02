@@ -1,6 +1,6 @@
-import { useQueryContext } from 'QueryContext';
-import { QueryProvider } from 'QueryProvider';
-import { QueryTransform } from 'QueryTransform';
+import { useQueryContext } from './QueryContext';
+import { QueryProvider } from './QueryProvider';
+import { QueryTransform } from './QueryTransform';
 import { StrictMode } from 'react';
 import { Action, ClientContextProvider, createClient } from 'react-fetching-library';
 

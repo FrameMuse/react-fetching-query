@@ -1,7 +1,7 @@
 import { useContext, useState } from "react"
 import { Action, ClientContext, QueryResponse } from "react-fetching-library"
-import { useQueryContext } from "QueryContext"
-import { getPaginationData, removeHostPath } from "QueryHelpers"
+import { useQueryContext } from "./QueryContext"
+import { getPaginationData, removeHostPath } from "./QueryHelpers"
 
 interface QueryPaginationProps {
   children: any

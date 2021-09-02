@@ -1,5 +1,5 @@
-import { QueryContext } from "QueryContext"
-import { QueryTransformContext } from "QueryTransform"
+import { QueryContext } from "./QueryContext"
+import { QueryTransformContext } from "./QueryTransform"
 import { useContext, useEffect, useState } from "react"
 import { Action, useMutation } from "react-fetching-library"
 
