@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "target": "ES5",
+    "baseUrl": "src",
+    "lib": ["dom", "ES5", "ESNext"],
+    "strict": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "noStrictGenericChecks": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "sourceMap": true,
+
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+    "checkJs": false,
+    "types": ["node", "react", "kotto-web-common"],
+    "typeRoots": ["@types"]
+  },
+  "typeAcquisition": {
+    "include": ["node", "react"]
+  },
+  "include": ["src", "@types/**/*"],
+  "exclude": ["node_modules"]
+}
