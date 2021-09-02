@@ -10,13 +10,14 @@
 
     "target": "ES5",
     "baseUrl": "src",
-    "outFile": "out/index.js",
+    "outDir": "out",
     "lib": ["dom", "ES5", "ESNext"],
     "strict": true,
-    "module": "amd",
+    "module": "ESNext",
     "moduleResolution": "node",
     "noStrictGenericChecks": true,
     "resolveJsonModule": true,
+    "isolatedModules": true,
     "sourceMap": true,
 
     "declaration": true,
