@@ -3,6 +3,7 @@
   "version": "0.4.2",
   "description": "Provides context of the using query",
   "main": "out/index.js",
+  "types": "out/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/framemuse/react-fetching-query.git"
