@@ -3,11 +3,14 @@
   "version": "0.4.6",
   "description": "Provides context of the using query",
   "main": "out/index.js",
-  "type": "module",
-  "types": "index.ts",
+  "types": "out/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/framemuse/react-fetching-query.git"
+  },
+  "scripts": {
+    "clean": "rm -rf out",
+    "build": "npm run clean && tsc --build"
   },
   "keywords": [
     "react",
