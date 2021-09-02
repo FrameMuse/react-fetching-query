@@ -11,9 +11,6 @@
     "target": "ES5",
     "baseUrl": "src",
     "outDir": "out",
-    "paths": {
-      "*": ["*"]
-    },
     "lib": ["dom", "ES5", "ESNext"],
     "strict": true,
     "module": "ESNext",
@@ -21,7 +18,7 @@
     "noStrictGenericChecks": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    // "declaration": true,
+    "declaration": true,
     "disableReferencedProjectLoad": false,
 
     "jsx": "react-jsx",
